@@ -38,6 +38,7 @@ class Main {
 			return Obese
 		}
 	}
+	}
    double shippingCost(double weight){
 	if(wieght<=10){
 		return 0
@@ -50,8 +51,15 @@ class Main {
 	}
    }
 
-  }
-
+	boolean blueOrViolet(double hz){
+		if(hz>=600&&hz<=670){
+			return true blue
+		} else if(hz>=700&&hz<=750){
+			return true violet
+		} else{
+			return false
+		}
+	}
  
   
 }
